@@ -119,6 +119,7 @@ body, html {
 
 .nav-menu .nav-list-ul {
   list-style: none;
+  padding: 0;
 }
 
 .nav-list-item {
@@ -178,5 +179,49 @@ body, html {
 
   .hero-txt {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu .nav-list {
+    width: 100%;
+  }
+
+  .menu-btn .menu-line {
+    background-color: var(--color-secondary);
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-txt {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header-title {
+    font-size: 2rem;
+  }
+  
+  .nav-list-title {
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+  
+  .hero-title {
+    margin: 1rem 0;
+    padding: 1rem 2.5rem;
+  }
+
+  .hero-txt {
+    margin: 1rem 5vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header-title {
+    margin-top: 3rem;
   }
 }
