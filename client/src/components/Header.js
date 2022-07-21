@@ -20,7 +20,7 @@ const Header = () => {
                     <div className='menu-line'></div>
                 </div>
             </header>
-            <Navigation menuShowing={menuShowing} setMenuShowing={setMenuShowing} />
+            <Navigation menuShowing={menuShowing} />
         </>
     );
 };
