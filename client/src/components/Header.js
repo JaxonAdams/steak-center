@@ -1,11 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Navigation from './Navigation';
-
-const Header = () => {
-    const [menuShowing, setMenuShowing] = useState(false);
-
+const Header = ({ menuShowing, setMenuShowing }) => {
     return (
         <>
             <header className='header'>
@@ -20,7 +16,6 @@ const Header = () => {
                     <div className='menu-line'></div>
                 </div>
             </header>
-            <Navigation menuShowing={menuShowing} />
         </>
     );
 };
