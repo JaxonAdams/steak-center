@@ -3,7 +3,7 @@ import React from 'react';
 const Gallery = () => {
     return (
         <>
-            <h2 className='gallery-title'>Something for everyone...</h2>
+            <h2 className='gallery-title'>Masterfully Prepared Meat</h2>
             <div className='gallery'>
                 <img className='food-img food-img-one' src={require('../assets/images/steak.jpg')} alt='A delicious steak' />
                 <img className='food-img food-img-two' src={require('../assets/images/chicken.jpg')} alt='A delicious chicken' />

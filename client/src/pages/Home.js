@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Gallery from '../components/Gallery';
+import Map from '../components/Map';
 import Navigation from '../components/Navigation';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Header menuShowing={menuShowing} setMenuShowing={setMenuShowing} />
             <Hero />
             <Gallery />
+            <Map />
             <Navigation menuShowing={menuShowing} />
         </div>
     );
